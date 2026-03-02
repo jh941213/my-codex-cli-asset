@@ -1,0 +1,15 @@
+# Codex CLI Configuration
+# 이 파일을 ~/.codex/config.toml에 복사하세요
+
+# 모델 설정
+model = "gpt-5.3-codex"
+
+# 승인 모드: "suggest" | "auto-edit" | "full-auto"
+approval_mode = "auto-edit"
+
+# 프로젝트 문서 설정
+project_doc_fallback_filenames = ["AGENTS.md", ".agents.md"]
+project_doc_max_bytes = 65536
+
+# 언어 설정
+# Codex는 AGENTS.md의 지시를 따라 한국어로 응답합니다

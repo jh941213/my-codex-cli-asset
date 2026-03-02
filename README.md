@@ -1,9 +1,21 @@
+<div align="center">
+
+<img src="assets/hero.png" alt="Codex CLI Power Pack" width="720" />
+
 # My Codex Code Asset
+
+**ChatGPT를 마구 Harness 장착시킨 Codex CLI 올인원 파워 팩**
+
+[![Skills](https://img.shields.io/badge/skills-33-blue)](#스킬-목록)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Codex CLI](https://img.shields.io/badge/Codex_CLI-compatible-orange)](https://github.com/openai/codex)
+
+</div>
 
 > [jh941213/my-claude-code-asset](https://github.com/jh941213/my-claude-code-asset) 기반 **OpenAI Codex CLI** 올인원 설정
 
 OpenAI Codex CLI에서 사용할 수 있도록 변환한 스킬 팩입니다.
-원본 Claude Code Power Pack의 30개 스킬, 8개 에이전트, 5개 규칙을 Codex CLI 형식에 맞게 재구성했습니다.
+원본 Claude Code Power Pack의 스킬, 에이전트, 규칙을 Codex CLI 형식에 맞게 재구성했습니다.
 
 ## 요구사항
 

@@ -78,13 +78,16 @@ my-codex-code-asset/
 │   ├── stitch-design-md/
 │   ├── stitch-enhance-prompt/
 │   ├── stitch-loop/
-│   └── stitch-react/
+│   ├── stitch-react/
+│   ├── worktree/          # Git 워크트리 관리
+│   ├── prd/               # PRD 생성
+│   └── docs/              # 자동 문서 생성
 └── .gitignore
 ```
 
 ## 스킬 목록
 
-### 워크플로우 스킬 (15개)
+### 워크플로우 스킬 (18개)
 
 | 스킬 | 호출 | 용도 |
 |------|------|------|
@@ -103,6 +106,9 @@ my-codex-code-asset/
 | e2e-verify | `$e2e-verify` | E2E 테스트 검증 |
 | nano-banana | `$nano-banana` | 이미지 생성 |
 | compact-guide | `$compact-guide` | 컨텍스트 관리 가이드 |
+| worktree | `$worktree` | Git 워크트리 관리 + 커밋 자동 기록 |
+| prd | `$prd` | PRD(제품 요구사항 문서) 생성 |
+| docs | `$docs` | 코드 변경사항 기반 자동 문서 생성 |
 
 ### 기술 스킬 (15개)
 

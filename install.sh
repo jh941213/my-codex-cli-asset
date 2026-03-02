@@ -85,6 +85,11 @@ for skill_dir in "$SOURCE_DIR"/skills/*/; do
 done
 ok "$SKILL_COUNT개 스킬 설치 완료"
 
+# 5-1. 실행 가능 스크립트에 chmod +x 설정
+info "스크립트 실행 권한 설정 중..."
+find "$SKILLS_DIR" -name "*.sh" -exec chmod +x {} \; 2>/dev/null || true
+ok "스크립트 실행 권한 설정 완료"
+
 # 6. config.toml 설치 (선택)
 if [ -f "$SOURCE_DIR/config.toml" ]; then
   if [ -f "$CODEX_DIR/config.toml" ]; then
@@ -112,4 +117,5 @@ echo "  codex         # Codex CLI 시작"
 echo "  \$plan        # 계획 수립 스킬"
 echo "  \$verify      # 검증 스킬"
 echo "  \$review      # 코드 리뷰 스킬"
+echo "  \$worktree    # Git 워크트리 관리"
 echo ""

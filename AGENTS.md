@@ -171,6 +171,9 @@ if (!apiKey) {
 | `$handoff` | HANDOFF.md 세션 인계 |
 | `$techdebt` | 기술 부채 정리 |
 | `$nano-banana` | Gemini CLI로 이미지 생성 |
+| `$worktree` | Git 워크트리 관리 + 커밋 자동 기록 |
+| `$prd` | PRD(제품 요구사항 문서) 생성 |
+| `$docs` | 코드 변경사항 기반 자동 문서 생성 |
 | `$react-patterns` | React 19 패턴 |
 | `$typescript-advanced-types` | 고급 타입 시스템 |
 | `$shadcn-ui` | shadcn/ui 컴포넌트 |

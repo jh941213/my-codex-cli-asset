@@ -1,6 +1,6 @@
-# Codex Code Power Pack 설정
+# Codex CLI Power Pack 설정
 
-jh941213/my-claude-code-asset 기반 Codex CLI 올인원 설정
+jh941213/my-codex-cli-asset 기반 Codex CLI 올인원 설정
 
 ## 핵심 마인드셋
 **Codex는 시니어가 아니라 똑똑한 주니어 개발자다.**

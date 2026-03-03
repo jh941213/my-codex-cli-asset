@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# My Codex Code Asset Installer
+# My Codex CLI Asset Installer
 # OpenAI Codex CLI용 스킬 팩 설치 스크립트
 
-REPO_URL="https://github.com/jh941213/my-codex-code-asset.git"
+REPO_URL="https://github.com/jh941213/my-codex-cli-asset.git"
 CODEX_DIR="$HOME/.codex"
 SKILLS_DIR="$CODEX_DIR/skills"
 TMP_DIR=$(mktemp -d)
@@ -26,7 +26,7 @@ trap cleanup EXIT
 
 echo ""
 echo "========================================="
-echo "  My Codex Code Asset Installer"
+echo "  My Codex CLI Asset Installer"
 echo "  OpenAI Codex CLI Power Pack"
 echo "========================================="
 echo ""

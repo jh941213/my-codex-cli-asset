@@ -2,7 +2,7 @@
 
 <img src="assets/hero.png" alt="Codex CLI Power Pack" width="720" />
 
-# My Codex Code Asset
+# My Codex CLI Asset
 
 **ChatGPT를 마구 Harness 장착시킨 Codex CLI 올인원 파워 팩**
 
@@ -12,10 +12,10 @@
 
 </div>
 
-> [jh941213/my-claude-code-asset](https://github.com/jh941213/my-claude-code-asset) 기반 **OpenAI Codex CLI** 올인원 설정
+> [jh941213/my-codex-cli-asset](https://github.com/jh941213/my-codex-cli-asset) 기반 **OpenAI Codex CLI** 올인원 설정
 
 OpenAI Codex CLI에서 사용할 수 있도록 변환한 스킬 팩입니다.
-원본 Claude Code Power Pack의 스킬, 에이전트, 규칙을 Codex CLI 형식에 맞게 재구성했습니다.
+33개 스킬, 에이전트, 규칙을 Codex CLI 형식에 맞게 구성했습니다.
 
 ## 요구사항
 
@@ -28,14 +28,14 @@ OpenAI Codex CLI에서 사용할 수 있도록 변환한 스킬 팩입니다.
 ### 자동 설치 (권장)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/jh941213/my-codex-code-asset/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/jh941213/my-codex-cli-asset/main/install.sh | bash
 ```
 
 또는 클론 후 설치:
 
 ```bash
-git clone https://github.com/jh941213/my-codex-code-asset.git
-cd my-codex-code-asset
+git clone https://github.com/jh941213/my-codex-cli-asset.git
+cd my-codex-cli-asset
 bash install.sh
 ```
 
@@ -56,7 +56,7 @@ cp config.toml ~/.codex/config.toml
 ## 구조
 
 ```
-my-codex-code-asset/
+my-codex-cli-asset/
 ├── AGENTS.md              # 메인 설정 (글로벌 지시사항)
 ├── config.toml            # Codex CLI 설정
 ├── install.sh             # 자동 설치 스크립트
@@ -157,7 +157,7 @@ $plan -> 구현 -> $review -> $verify -> $e2e-verify
 
 ## 원본 프로젝트
 
-- [jh941213/my-claude-code-asset](https://github.com/jh941213/my-claude-code-asset) - Claude Code Power Pack (원본)
+- [jh941213/my-codex-cli-asset](https://github.com/jh941213/my-codex-cli-asset) - Claude Code Power Pack (원본)
 
 ## 라이선스
 
